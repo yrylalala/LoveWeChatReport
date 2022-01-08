@@ -2,10 +2,16 @@
 node_modules
 /dist
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 
 # local env files
 .env.local
 .env.*.local
+venv/
 
 # Log files
 npm-debug.log*
@@ -23,5 +29,5 @@ pnpm-debug.log*
 *.sw?
 
 # Personal files
-src/assets/images/cy.png
-src/data.json
+build-page/src/assets/images/cy.png
+build-page/src/data.json
