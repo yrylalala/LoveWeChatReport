@@ -23,5 +23,5 @@ pnpm-debug.log*
 *.sw?
 
 # Personal files
-src/assets/images/cy.png
-src/data.json
+src/assets/cy.png
+data.json
