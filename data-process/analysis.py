@@ -66,7 +66,7 @@ with open("result.json", "w", encoding="utf-8") as f:
 
 print("json file done.")
 
-with open("test.csv", "w", encoding="utf-8-sig") as csvfile:
+with open("segmentation.csv", "w", encoding="utf-8-sig") as csvfile:
     writer = csv.writer(csvfile)
 
     # 先写入columns_name

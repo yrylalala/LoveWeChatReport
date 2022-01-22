@@ -1,0 +1,17 @@
+# 数据库信息
+database:
+  host: localhost
+  user: root
+  password: 123456
+  db: wechat
+  charset: utf8mb4
+  port: 3306
+
+# 聊天者信息
+userinfo:
+  #  聊天对象的 talkerID, 可以先从 message 表中查询到对应的聊天记录，然后取 talker 字段值
+  talkerID: wxid_xxxxxxxxx
+  # 聊天对象的自定义称呼
+  sendername: 爱人
+  # 本人的自定义称呼
+  receivername: 自己
